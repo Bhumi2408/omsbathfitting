@@ -1,5 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image'
+import Link from 'next/link';
+import React from 'react'
 
 const collections = [
   {
@@ -23,33 +24,112 @@ const collections = [
   
 ];
 
-export default function SignatureSeries() {
-  return (
-    <section className="bg-[#f8f6f2] py-20" id="#collections">
+const page = () => {
+    return (
+        <>
+            <section className="relative h-screen overflow-hidden">
+                <Image
+                    src="/home/shower.png"
+                    fill
+                    priority
+                    alt="shower"
+                    className="object-cover"
+                />
+
+                {/* overlays */}
+                <div className="absolute inset-0 bg-black/70" />
+                <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" />
+
+                <div className="absolute inset-0 flex items-center">
+                    <div className="max-w-[1700px] mx-auto w-full px-12">
+                        <p
+                            className="
+                    text-[#b99658]
+                    uppercase
+                    tracking-[8px]
+                    text-sm
+                    mb-6
+                  "
+                        >
+                            Premium Collection
+                        </p>
+
+                        <h1
+                            className="
+                    font-heading
+                    text-white
+                    text-[110px]
+                    leading-[0.9]
+                    mb-6
+                  "
+                        >
+                            Collections
+                        </h1>
+
+                       
+                            <p
+                                className="
+                      text-[#c8a86b]
+                      text-3xl
+                      italic
+                      font-heading
+                      mb-8
+                    "
+                            >
+                                Crafted for timeless luxury
+                            </p>
+                     
+
+                        <div className="w-24 h-[1px] bg-[#b99658] mb-8" />
+
+                        <p
+                            className="
+                    text-zinc-300
+                    text-xl
+                    leading-10
+                    max-w-2xl
+                    mb-10
+                  "
+                        >
+                            Discover Royal premium bathroom fittings.
+                        </p>
+
+                        <button
+                            className="
+                    border
+                    border-[#b99658]
+                    px-10
+                    py-5
+                    text-[#b99658]
+                    uppercase
+                    tracking-[4px]
+                    hover:bg-[#b99658]
+                    hover:text-black
+                    duration-300
+                  "
+                        >
+                            Explore Collection
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+             <section className="bg-[#f8f6f2] py-20" id="#collections">
       <div className="max-w-[1700px] mx-auto px-10">
         {/* Heading */}
         <div className="text-center mb-14">
-          <p
-            className="
-        text-[#b99658]
-        uppercase
-        tracking-[8px]
-        text-sm
-        mb-3
-      "
-          >
-            OUR COLLECTIONS
-          </p>
+       
 
           <h2
             className="
         font-heading
-        text-[62px]
+        text-[#b99658]
+        text-[60px]
         leading-none
         mb-3
       "
           >
-            Signature Series
+            OUR COLLECTIONS
           </h2>
 
           <p
@@ -200,5 +280,8 @@ export default function SignatureSeries() {
         </div>
       </div>
     </section>
-  );
+        </>
+    )
 }
+
+export default page

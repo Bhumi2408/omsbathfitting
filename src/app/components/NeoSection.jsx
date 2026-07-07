@@ -126,7 +126,7 @@ export default function NeoSection() {
         <div className="relative overflow-hidden group">
 
           <Image
-            src="/home/neoo.png"
+            src="/home/neoss.png"
             alt="Neo Collection"
             fill
             className="

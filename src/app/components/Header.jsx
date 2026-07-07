@@ -82,7 +82,6 @@ const DropdownSlider = ({ items }) => (
   </div>
 );
 
-
 const collections = [
   {
     name: "Essential Item",
@@ -96,7 +95,7 @@ const collections = [
   },
   {
     name: "Quba",
-    image: "/home/quba.png",
+    image: "/home/qubas.png",
     link: "/quba",
   },
   {
@@ -106,7 +105,7 @@ const collections = [
   },
   {
     name: "Opal",
-    image: "/home/opal.png",
+    image: "/home/opals.png",
     link: "/opal",
   },
   {
@@ -157,7 +156,7 @@ const collections = [
   { name: "Donald", image: "/home/curve.png", link: "/donald" },
   { name: "Bonjo", image: "/home/curve.png", link: "/bonjo" },
   { name: "Royal", image: "/home/curve.png", link: "/royal" },
-  { name: "Neo", image: "/home/curve.png", link: "/neo" },
+  { name: "Neo", image: "/home/neoss.png", link: "/neo" },
   { name: "Bath Set", image: "/home/curve.png", link: "/bath-set" },
   { name: "Shower", image: "/home/curve.png", link: "/shower" },
 ];
@@ -202,12 +201,12 @@ export default function Header() {
   const [activeDropdown, setActiveDropdown] = useState(null);
 
   return (
-    <header className="sticky top-0 z-50 bg-black px-10">
+    <header className="sticky top-0 z-50 bg-white">
       {/* top overlay */}
       <div className="absolute inset-0 bg-[url('/texture.png')] opacity-10"></div>
 
       <nav className="relative border-b border-[#252525]">
-        <div className="max-w-[1800px] mx-auto px-10">
+        <div className="max-w-[1800px] mx-auto px-20">
           <div className="h-[80px] flex items-center justify-between">
             {/* LEFT MENU */}
             {/* <div className="flex items-center gap-10">
@@ -302,8 +301,6 @@ export default function Header() {
 
             {/* RIGHT MENU */}
             <div className="flex items-center gap-10">
-             
-
               {/* <div
                 className="relative"
                 onMouseEnter={() => setActiveDropdown("shower")}
@@ -325,68 +322,97 @@ export default function Header() {
                   <DropdownSlider items={showerItems} />
                 )}
               </div> */}
-               <Link className="
+              <Link
+                className="
       text-[13px]
       uppercase
       tracking-[3px]
-      text-[#cfcfcf]
+      text-black
+      font-medium
       hover:text-[#b99658]
-      duration-300" href="/">Home</Link>
+      duration-300"
+                href="/"
+              >
+                Home
+              </Link>
 
-      <Link className="
+              <Link
+                className="
       text-[13px]
       uppercase
       tracking-[3px]
-      text-[#cfcfcf]
+     text-black
+      font-medium
       hover:text-[#b99658]
-      duration-300" href="#about">About</Link>
-              
-               <div
+      duration-300"
+                href="#about"
+              >
+                About
+              </Link>
+
+              <div
                 className="relative"
                 onMouseEnter={() => setActiveDropdown("collection")}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button
+                <Link href="/collections"><button
                   className="
       text-[13px]
       uppercase
       tracking-[3px]
-      text-[#cfcfcf]
+       text-black
+       cursor-pointer
+      font-medium
       hover:text-[#b99658]
     "
                 >
                   Collection
-                </button>
+                </button></Link>
 
                 {activeDropdown === "collection" && (
                   <DropdownSlider items={collections} />
                 )}
               </div>
-              <Link className="
+              <Link
+                className="
       text-[13px]
       uppercase
       tracking-[3px]
-      text-[#cfcfcf]
+       text-black
+      font-medium
       hover:text-[#b99658]
-      duration-300" href="#testimonials">Testimonials</Link>
-              <Link className="
+      duration-300"
+                href="#testimonials"
+              >
+                Testimonials
+              </Link>
+              <Link
+                className="
       text-[13px]
       uppercase
       tracking-[3px]
-      text-[#cfcfcf]
+       text-black
+      font-medium
       hover:text-[#b99658]
-      duration-300" href="#contact">Contact</Link>
+      duration-300"
+                href="#contact"
+              >
+                Contact
+              </Link>
 
-      <Link className="
+              <Link
+                className="
       text-[13px]
       uppercase
       tracking-[3px]
       text-black
       hover:text-white px-4 py-3 bg-[#b99658]
-      duration-300" href="#contact">Download Catalogue</Link>
-
+      duration-300"
+                href="#contact"
+              >
+                Download Catalogue
+              </Link>
             </div>
-            
           </div>
         </div>
       </nav>
