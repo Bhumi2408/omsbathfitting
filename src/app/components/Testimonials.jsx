@@ -11,98 +11,53 @@ export default function Testimonials() {
       designation: "DIRECTOR, AHUJA INTERIOR DESIGNS",
     },
     {
-      text: "We specify OM's for ultra-luxury residences. The Noir series is particularly striking.",
+      text: "We specify OM's for premium residential projects. The Quba series is particularly striking.",
       name: "SARAH THOMAS",
       designation: "LEAD DESIGNER, SPACE MATRIX",
     },
   ];
 
   return (
-    <section
-      id="testimonials"
-      className="bg-black py-24 overflow-hidden px-28"
-    >
-      <div className="max-w-[1700px] mx-auto px-10">
-
+    <section id="testimonials" className="bg-black py-16 sm:py-20 lg:py-24 overflow-hidden">
+      <div className="max-w-[1700px] mx-auto px-6 sm:px-14 lg:px-10">
         {/* Heading */}
-        <div className="text-center mb-24">
-          <p
-            className="
-              text-[#b99658]
-              uppercase
-              tracking-[8px]
-              text-sm
-              mb-4
-            "
-          >
+        <div className="text-center mb-14 sm:mb-20 lg:mb-24">
+          <p className="text-[#b99658] uppercase tracking-[4px] sm:tracking-[8px] text-xs sm:text-sm mb-3 sm:mb-4">
             Voices
           </p>
 
-          <h2
-            className="
-              font-heading
-              text-white
-              text-6xl
-            "
-          >
+          <h2 className="font-heading text-white text-3xl sm:text-5xl lg:text-6xl">
             What the Experts Say
           </h2>
         </div>
 
         {/* Testimonials */}
-        <div className="grid lg:grid-cols-3 gap-16">
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 lg:gap-16">
           {testimonials.map((item) => (
             <div key={item.name} className="group">
-
               {/* Quote */}
-              <div
-                className="
-                  text-[#b99658]
-                  text-5xl
-                  leading-none
-                  mb-6
-                  opacity-70
-                "
-              >
+              <div className="text-[#b99658] text-4xl sm:text-5xl leading-none mb-4 sm:mb-6 opacity-70">
                 "
               </div>
 
               {/* Text */}
-              <p
-                className="
-                  font-heading
-                  italic
-                  text-[24px]
-                  leading-[1.6]
-                  text-[#f4ede4]
-                  mb-14
-                  transition
-                  duration-500
-                  group-hover:text-white
-                "
-              >
+              <p className="font-heading italic text-lg sm:text-xl lg:text-[24px] leading-7 sm:leading-[1.6] text-[#f4ede4] mb-8 sm:mb-14 transition duration-500 group-hover:text-white">
                 {item.text}
               </p>
 
               {/* Divider */}
-              <div className="h-px bg-[#1c1c1c] mb-6"></div>
+              <div className="h-px bg-[#1c1c1c] mb-5 sm:mb-6"></div>
 
               {/* Author */}
-              <h4
-                className="
-                  text-[#b99658]
-                  tracking-[3px]
-                  uppercase
-                  text-sm
-                  mb-3
-                "
-              >
+              <h4 className="text-[#b99658] tracking-[2px] sm:tracking-[3px] uppercase text-xs sm:text-sm mb-3">
                 {item.name}
               </h4>
+
+              <p className="text-zinc-500 text-[10px] sm:text-xs tracking-[1px] uppercase">
+                {item.designation}
+              </p>
             </div>
           ))}
-
         </div>
       </div>
     </section>

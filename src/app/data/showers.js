@@ -58,7 +58,7 @@ export const showers = [
 
     banner: "/home/telephonic-shower.png",
 
-    name: "Rain Shower",
+    name: "Telephonic Shower",
 
     description:
       "Experience rainfall-inspired luxury showering.",
@@ -101,7 +101,7 @@ export const showers = [
 
     banner: "/home/overhead-shower.png",
 
-    name: "Rain Shower",
+    name: "Overhead Shower",
 
     description:
       "Experience rainfall-inspired luxury showering.",

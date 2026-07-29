@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function FeaturedCategory() {
   return (
     <section className="bg-black">
-      <div className="grid lg:grid-cols-[1fr_1fr] gap-20 min-h-[650px]">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-0 lg:gap-20 min-h-fit lg:min-h-[650px]">
 
         {/* LEFT IMAGE */}
-        <div className="relative overflow-hidden group">
+        <div className="relative overflow-hidden group h-[420px] lg:h-auto">
           <Image
-            src="/home/series1.png" // apni image lagao
-            alt="Luxury Faucet"
+            src="/home/faucets.png"
+            alt="Faucets and Mixers"
             fill
             className="
               object-cover
@@ -19,102 +19,70 @@ export default function FeaturedCategory() {
               group-hover:scale-105
             "
           />
-
-          {/* overlay */}
           <div className="absolute inset-0 bg-black/20" />
-
         </div>
 
         {/* RIGHT CONTENT */}
-        <div className="bg-black flex items-center pr-20">
-          <div>
+        <div className="bg-black flex items-center py-10 sm:py-14 lg:py-0 lg:pr-20">
+          <div className="px-6 sm:px-10 lg:px-0">
 
             {/* heading */}
-            <h2
-              className="
-                font-heading
-                text-white
-                text-6xl
-                leading-[1.05]
-              "
-            >
+            <h2 className="font-heading text-white text-4xl sm:text-5xl lg:text-6xl leading-[1.05]">
               Faucets
             </h2>
 
-            <h3
-              className="
-                font-heading
-                italic
-                text-white
-                text-5xl
-                mb-10
-              "
-            >
+            <h3 className="font-heading italic text-white text-3xl sm:text-4xl lg:text-5xl mb-6 sm:mb-10">
               & Mixers
             </h3>
 
             {/* description */}
-            <p
-              className="
-                text-zinc-400
-                leading-6
-                mb-10
-              "
-            >
-              From wall-mounted waterfall spouts to
-              precision single-lever basin mixers —
-              our faucet range redefines what it means
-              to interact with water. Ceramic disc
-              cartridges guarantee lifetime smoothness.
+            <p className="text-zinc-400 text-sm sm:text-base leading-6 sm:leading-7 mb-8 sm:mb-10">
+              From bib cocks and angle valves to precision single-lever
+              basin mixers and wall-mounted spouts — our faucet range
+              covers every point of use. Chrome-finished brass and
+              ceramic disc technology ensure lasting smooth operation.
             </p>
 
             {/* features */}
-            <div className="grid grid-cols-2 gap-y-6 mb-12">
-
-              <div className="flex items-center gap-4">
+            <div className="grid grid-cols-2 gap-x-4 gap-y-4 sm:gap-y-6 mb-8 sm:mb-12">
+              <div className="flex items-center gap-3 sm:gap-4">
                 <span className="text-[#b99658]">•</span>
-                <span className="text-zinc-300">
-                  Wall-Mounted
-                </span>
+                <span className="text-zinc-300 text-sm sm:text-base">Swan Necks</span>
               </div>
-
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-3 sm:gap-4">
                 <span className="text-[#b99658]">•</span>
-                <span className="text-zinc-300">
-                  Counter-Top
-                </span>
+                <span className="text-zinc-300 text-sm sm:text-base">Sink Mixers</span>
               </div>
-
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-3 sm:gap-4">
                 <span className="text-[#b99658]">•</span>
-                <span className="text-zinc-300">
-                  Pillar Cocks
-                </span>
+                <span className="text-zinc-300 text-sm sm:text-base">Pillar Cocks</span>
               </div>
-
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-3 sm:gap-4">
                 <span className="text-[#b99658]">•</span>
-                <span className="text-zinc-300">
-                  Waterfall Spouts
-                </span>
+                <span className="text-zinc-300 text-sm sm:text-base">Wall Mixers</span>
               </div>
-
             </div>
 
             {/* button */}
             <Link
-              href="/faucets"
+              href="/collections"
               className="
                 inline-flex
                 items-center
-                gap-4
+                gap-3
+                sm:gap-4
                 text-[#b99658]
                 uppercase
-                tracking-[4px]
+                tracking-[2px]
+                sm:tracking-[4px]
+                text-xs
+                sm:text-sm
                 border-b
                 border-[#b99658]
-                pb-3
-                hover:gap-6
+                pb-2
+                sm:pb-3
+                hover:gap-5
+                sm:hover:gap-6
                 transition-all
                 duration-300
               "

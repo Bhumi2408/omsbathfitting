@@ -3,53 +3,52 @@ import Link from "next/link";
 
 export default function AboutSection() {
   return (
-    <section className="bg-[#f8f6f2] py-20 overflow-hidden px-10" id="about">
-      <div className="max-w-[1700px] mx-auto px-10">
+    <section className="bg-[#f8f6f2] py-14 sm:py-20 overflow-hidden px-0" id="about">
+      <div className="max-w-[1700px] mx-auto px-6 sm:px-10">
 
-        {/* heading */}
-        
         {/* content */}
-        <div className="grid lg:grid-cols-[0.9fr_1.2fr_0.7fr] gap-14">
+        <div className="grid grid-cols-1 lg:grid-cols-[0.9fr_1.2fr_0.7fr] gap-10 sm:gap-14">
 
           {/* left */}
           <div>
-            <div className="mb-5 mt-10">
-          <p className="text-[#b99658] uppercase tracking-[8px] text-sm mb-5">
-            About Us
-          </p>
+            <div className="mb-5 mt-6 sm:mt-10">
+              <p className="text-[#b99658] uppercase tracking-[4px] sm:tracking-[8px] text-xs sm:text-sm mb-4 sm:mb-5">
+                About Us
+              </p>
 
-          <h2 className="font-heading text-[52px] leading-none">
-            Crafting Spaces
-          </h2>
+              <h2 className="font-heading text-4xl sm:text-5xl lg:text-[52px] leading-none">
+                Crafting Spaces
+              </h2>
 
-          <h3 className="font-heading italic text-[#b99658] text-[48px]">
-            Beyond Utility
-          </h3>
-        </div>
+              <h3 className="font-heading italic text-[#b99658] text-3xl sm:text-4xl lg:text-[48px]">
+                Beyond Utility
+              </h3>
+            </div>
 
-            <div className="border-l-2 border-[#b99658] pl-8 mt-5">
+            <div className="border-l-2 border-[#b99658] pl-5 sm:pl-8 mt-5">
 
-              <h4 className="font-heading text-5xl mb-8">
-                Luxury Begins
+              <h4 className="font-heading text-3xl sm:text-4xl lg:text-5xl mb-5 sm:mb-8">
+                Precision Meets
                 <br />
-                With Detail
+                Timeless Design
               </h4>
 
-              <p className="text-zinc-600 text-lg leading-9">
-                Every fixture we create blends
-                engineering precision with
-                timeless aesthetics, transforming
-                everyday rituals into experiences.
+              <p className="text-zinc-600 text-base sm:text-lg leading-7 sm:leading-9">
+                One of the leading manufacturers of premium bathroom
+                faucets, Om's blends precision craftsmanship, state-of-the-art
+                technology and top-grade raw materials to bring superior
+                performance and aesthetic excellence to everyday bathing
+                experiences.
               </p>
             </div>
 
-            <div className="mt-5">
-              <p className="text-[#b99658] text-6xl font-heading">
-                25+
+            <div className="mt-8 sm:mt-5">
+              <p className="text-[#b99658] text-5xl sm:text-6xl font-heading">
+                2 Decades
               </p>
 
-              <p className="uppercase tracking-[4px] text-sm mt-2">
-                Years Of Excellence
+              <p className="uppercase tracking-[2px] sm:tracking-[4px] text-xs sm:text-sm mt-2">
+                Of Trust &amp; Quality
               </p>
             </div>
           </div>
@@ -57,17 +56,19 @@ export default function AboutSection() {
           {/* image */}
           <div className="relative group">
 
-            <div className="overflow-hidden rounded-[40px]">
-
+            <div className="overflow-hidden rounded-[24px] sm:rounded-[40px]">
               <Image
                 src="/home/about-section.png"
                 width={900}
                 height={1000}
                 alt="About"
                 className="
-                  h-[700px]
+                  h-[420px]
+                  sm:h-[560px]
+                  lg:h-[700px]
                   w-full
-                  object-cover rounded-t-full
+                  object-cover
+                  rounded-t-full
                 "
               />
             </div>
@@ -75,78 +76,66 @@ export default function AboutSection() {
             {/* floating card */}
             <div className="
               absolute
-              -bottom-10
+              -bottom-8
+              sm:-bottom-10
               left-1/2
               -translate-x-1/2
               bg-white
               shadow-2xl
-              px-10
-              py-6
-              rounded-2xl
+              px-6
+              py-4
+              sm:px-10
+              sm:py-6
+              rounded-xl
+              sm:rounded-2xl
+              w-[85%]
+              sm:w-auto
+              text-center
+              sm:text-left
             ">
-              <p className="text-[#b99658] uppercase tracking-[4px] text-xs">
-                Premium Bathroom Solutions
+              <p className="text-[#b99658] uppercase tracking-[2px] sm:tracking-[4px] text-[10px] sm:text-xs">
+                An ISO 9001:2015 Certified Company
               </p>
 
-              <h4 className="font-heading text-3xl mt-2">
-                Crafted To Inspire
+              <h4 className="font-heading text-xl sm:text-3xl mt-1 sm:mt-2">
+                Crafted To Impress
               </h4>
             </div>
           </div>
 
           {/* right */}
-          <div className="space-y-12 flex flex-col justify-end">
+          <div className="space-y-8 sm:space-y-12 flex flex-col justify-end mt-10 lg:mt-0">
 
             <div>
-              <p className="text-[#b99658] text-5xl font-heading">
+              <p className="text-[#b99658] text-4xl sm:text-5xl font-heading">
+                20+
+              </p>
+
+              <p className="text-zinc-600 mt-2 text-sm sm:text-base">
+                Design Collections
+              </p>
+            </div>
+
+            <div>
+              <p className="text-[#b99658] text-4xl sm:text-5xl font-heading">
                 500+
               </p>
 
-              <p className="text-zinc-600 mt-2">
+              <p className="text-zinc-600 mt-2 text-sm sm:text-base">
                 Premium Products
               </p>
             </div>
 
             <div>
-              <p className="text-[#b99658] text-5xl font-heading">
-                100K+
+              <p className="text-[#b99658] text-4xl sm:text-5xl font-heading">
+                ISO 9001:2015
               </p>
 
-              <p className="text-zinc-600 mt-2">
-                Happy Customers
-              </p>
-            </div>
-
-            <div>
-              <p className="text-[#b99658] text-5xl font-heading">
-                50+
-              </p>
-
-              <p className="text-zinc-600 mt-2">
-                Design Collections
+              <p className="text-zinc-600 mt-2 text-sm sm:text-base">
+                Certified Manufacturing
               </p>
             </div>
 
-            <Link
-              href="/about"
-              className="
-                inline-flex
-                items-center
-                gap-4
-                border
-                border-[#b99658]
-                px-8
-                py-4
-                uppercase
-                tracking-[3px]
-                text-[#b99658]
-                hover:bg-[#b99658]
-                hover:text-white
-                transition
-              "
-            >
-              Discover Our Story →
-            </Link>
           </div>
 
         </div>

@@ -11,9 +11,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
-  const collection = bathSets.find(
-    (item) => item.slug === slug
-  );
+  const collection = bathSets.find((item) => item.slug === slug);
 
   if (!collection) {
     return {
@@ -28,22 +26,14 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function Page({
-  params,
-}) {
+export default async function Page({ params }) {
   const { slug } = await params;
 
-  const collection = bathSets.find(
-    (item) => item.slug === slug
-  );
+  const collection = bathSets.find((item) => item.slug === slug);
 
   if (!collection) {
     notFound();
   }
 
-  return (
-    <CollectionTemplate
-      collection={collection}
-    />
-  );
+  return <CollectionTemplate collection={collection} />;
 }
