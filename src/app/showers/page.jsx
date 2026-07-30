@@ -13,8 +13,7 @@ const Page = () => {
           alt="shower"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" />
+        <div className="absolute inset-0 bg-black/50" />
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-[1700px] mx-auto w-full px-6 sm:px-10 lg:px-12">
@@ -59,7 +58,7 @@ const Page = () => {
               >
                 <div className="relative overflow-hidden rounded-[24px] sm:rounded-[32px] h-[340px] sm:h-[420px] lg:h-[480px]">
                   <Image
-                    src={item.banner}
+                    src={item.thumbnail}
                     fill
                     alt={item.name}
                     className="object-cover object-center transition duration-700 group-hover:scale-110"

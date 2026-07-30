@@ -1,44 +1,22 @@
-import Image from 'next/image'
-import Link from 'next/link';
-import React from 'react'
+import Image from "next/image";
+import Link from "next/link";
+import { collections } from "../data/collections";
 
-const collections = [
-  {
-    image: "/home/qubas.png",
-    products: "60 Products",
-    title: "Quba Series",
-    link: "/quba",
-  },
-  {
-    image: "/home/aria.png",
-    products: "48 Products",
-    title: "Aria",
-    link: "/aria",
-  },
-  {
-    image: "/home/opals.png",
-    products: "31 Products",
-    title: "Opal Series",
-    link: "/opal",
-  },
-
-];
-
-const page = () => {
+const Page = () => {
   return (
     <>
       <section className="relative h-screen overflow-hidden">
         <Image
-          src="/home/shower.png"
+          src="/banner/collectionbanner.png"
           fill
           priority
-          alt="shower"
+          alt="collections"
           className="object-cover"
         />
 
         {/* overlays */}
         <div className="absolute inset-0 bg-black/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" /> */}
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-[1700px] mx-auto w-full px-6 sm:px-10 lg:px-12">
@@ -105,11 +83,13 @@ const page = () => {
                 sm:mb-10
               "
             >
-              Discover Royal premium bathroom fittings.
+              Discover our premium bathroom fittings across every collection.
             </p>
 
-            <button
+            <Link
+              href="#collections"
               className="
+                inline-block
                 border
                 border-[#b99658]
                 px-6
@@ -128,12 +108,12 @@ const page = () => {
               "
             >
               Explore Collection
-            </button>
+            </Link>
           </div>
         </div>
       </section>
 
-      <section className="bg-[#f8f6f2] py-14 sm:py-20" id="#collections">
+      <section className="bg-[#f8f6f2] py-14 sm:py-20" id="collections">
         <div className="max-w-[1700px] mx-auto px-6 sm:px-10">
           {/* Heading */}
           <div className="text-center mb-10 sm:mb-14">
@@ -168,7 +148,11 @@ const page = () => {
           {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 px-0 sm:px-6 lg:px-10">
             {collections.map((item) => (
-              <Link key={item.title} href={item.link} className="group">
+              <Link
+                key={item.slug}
+                href={`/${item.slug}`}
+                className="group"
+              >
                 <div
                   className="
                     relative
@@ -182,9 +166,9 @@ const page = () => {
                 >
                   {/* image */}
                   <Image
-                    src={item.image}
+                    src={item.thumbnail}
                     fill
-                    alt={item.title}
+                    alt={item.name}
                     className="
                       object-cover
                       object-center
@@ -209,7 +193,7 @@ const page = () => {
                     "
                   />
 
-                  {/* product count */}
+                  {/* product count - automatic */}
                   <div
                     className="
                       absolute
@@ -238,7 +222,7 @@ const page = () => {
                         sm:text-xs
                       "
                     >
-                      {item.products}
+                      {item.products.length} Products
                     </p>
                   </div>
 
@@ -253,21 +237,6 @@ const page = () => {
                       sm:p-8
                     "
                   >
-                    <p
-                      className="
-                        text-[#b99658]
-                        uppercase
-                        tracking-[3px]
-                        sm:tracking-[4px]
-                        text-[10px]
-                        sm:text-xs
-                        mb-2
-                        sm:mb-3
-                      "
-                    >
-                      {item.subtitle}
-                    </p>
-
                     <div
                       className="
                         flex
@@ -284,7 +253,7 @@ const page = () => {
                           lg:text-3xl
                         "
                       >
-                        {item.title}
+                        {item.name}
                       </h3>
 
                       <div
@@ -320,7 +289,7 @@ const page = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default Page;

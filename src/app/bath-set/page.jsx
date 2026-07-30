@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import { bathSets } from "../data/bathSets";
@@ -9,14 +9,14 @@ const Page = () => {
       {/* HERO */}
       <section className="relative h-screen overflow-hidden">
         <Image
-          src="/home/shower.png"
+          src="/banner/bath-setbanner.png"
           fill
           priority
           alt="bath set"
-          className="object-cover"
+          className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" />
+        <div className="absolute inset-0 bg-black/60" />
+        {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" /> */}
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-[1700px] mx-auto w-full px-6 sm:px-10 lg:px-12">
@@ -48,8 +48,8 @@ const Page = () => {
               OUR BATH SETS
             </h2>
             <p className="text-zinc-500 max-w-2xl mx-auto text-base sm:text-lg">
-              Discover our curated bath set collections, designed for
-              timeless luxury interiors.
+              Discover our curated bath set collections, designed for timeless
+              luxury interiors.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ const Page = () => {
               >
                 <div className="relative overflow-hidden rounded-[24px] sm:rounded-[32px] h-[340px] sm:h-[420px] lg:h-[480px]">
                   <Image
-                    src={item.banner}
+                    src={item.thumbnail}
                     fill
                     alt={item.name}
                     className="object-cover object-center transition duration-700 group-hover:scale-110"

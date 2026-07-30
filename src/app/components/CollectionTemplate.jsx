@@ -13,8 +13,7 @@ export default function CollectionTemplate({ collection }) {
           alt={collection.name}
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-black/70" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" />
+        <div className="absolute inset-0 bg-black/60" />
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-[1700px] mx-auto w-full px-6 sm:px-10 lg:px-12">
@@ -180,10 +179,15 @@ export default function CollectionTemplate({ collection }) {
                       {product.name}
                     </h3>
 
-                    {/* description drawer */}
+                    {/* description - always visible on mobile/tablet, hover-reveal only on desktop */}
+                    <p className="text-zinc-500 text-sm leading-6 mb-4 sm:mb-5 lg:hidden">
+                      {product.description}
+                    </p>
+
                     <div
                       className="
-                        grid
+                        hidden
+                        lg:grid
                         grid-rows-[0fr]
                         group-hover:grid-rows-[1fr]
                         transition-all
@@ -192,7 +196,7 @@ export default function CollectionTemplate({ collection }) {
                       "
                     >
                       <div className="overflow-hidden">
-                        <p className="text-zinc-500 text-sm leading-6 mb-4 sm:mb-5">
+                        <p className="text-zinc-500 text-sm leading-6 mb-5">
                           {product.description}
                         </p>
                       </div>
