@@ -38,7 +38,7 @@ const Page = () => {
       name: "Shower",
       thumbnail: "/thumbnail/rain-shower.png",
       count: showerCount,
-      href: "/shower",
+      href: "/showers",
     },
   ];
 
