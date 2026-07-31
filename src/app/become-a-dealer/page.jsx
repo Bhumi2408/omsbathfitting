@@ -6,8 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Loader2 } from "lucide-react";
 
-const ACCESS_KEY_1 = "YOUR_FIRST_WEB3FORMS_ACCESS_KEY";
-const ACCESS_KEY_2 = "YOUR_SECOND_WEB3FORMS_ACCESS_KEY";
+const ACCESS_KEY_1 = "e0f2ad34-2eca-4d85-8063-ec6d51282ab8";
+const ACCESS_KEY_2 = "05158624-434e-406f-b368-9e98fc30dcf9";
 
 const professions = [
   "Dealer / Distributor",
@@ -51,8 +51,8 @@ export default function BecomeADealerPage() {
         }).then((res) => res.json());
 
       const [res1, res2] = await Promise.all([
-        submitToKey(ACCESS_KEY_1),
-        submitToKey(ACCESS_KEY_2),
+        submitToKey("e0f2ad34-2eca-4d85-8063-ec6d51282ab8"),
+        submitToKey("05158624-434e-406f-b368-9e98fc30dcf9"),
       ]);
 
       if (res1.success || res2.success) {
