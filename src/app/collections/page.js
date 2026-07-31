@@ -1,8 +1,47 @@
 import Image from "next/image";
 import Link from "next/link";
 import { collections } from "../data/collections";
+import { bathSets } from "../data/bathSets";
+import { showers } from "../data/showers";
 
 const Page = () => {
+  // total products inside all bath-set sub-categories (Dolfee + Squaro + Ridim)
+  const bathSetCount = bathSets.reduce(
+    (sum, item) => sum + item.products.length,
+    0
+  );
+
+  // total products inside all shower sub-categories (Rain + Overhead + Hand Shower)
+  const showerCount = showers.reduce(
+    (sum, item) => sum + item.products.length,
+    0
+  );
+
+  // unified list for the grid: normal collections + Bath Set + Shower
+  const allCollections = [
+    ...collections.map((item) => ({
+      slug: item.slug,
+      name: item.name,
+      thumbnail: item.thumbnail,
+      count: item.products.length,
+      href: `/${item.slug}`,
+    })),
+    {
+      slug: "bath-set",
+      name: "Bath Set",
+      thumbnail: "/thumbnail/ridim.png",
+      count: bathSetCount,
+      href: "/bath-set",
+    },
+    {
+      slug: "shower",
+      name: "Shower",
+      thumbnail: "/thumbnail/rain-shower.png",
+      count: showerCount,
+      href: "/shower",
+    },
+  ];
+
   return (
     <>
       <section className="relative h-screen overflow-hidden">
@@ -16,7 +55,6 @@ const Page = () => {
 
         {/* overlays */}
         <div className="absolute inset-0 bg-black/70" />
-        {/* <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" /> */}
 
         <div className="absolute inset-0 flex items-center">
           <div className="max-w-[1700px] mx-auto w-full px-6 sm:px-10 lg:px-12">
@@ -147,12 +185,8 @@ const Page = () => {
 
           {/* Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 px-0 sm:px-6 lg:px-10">
-            {collections.map((item) => (
-              <Link
-                key={item.slug}
-                href={`/${item.slug}`}
-                className="group"
-              >
+            {allCollections.map((item) => (
+              <Link key={item.slug} href={item.href} className="group">
                 <div
                   className="
                     relative
@@ -222,7 +256,7 @@ const Page = () => {
                         sm:text-xs
                       "
                     >
-                      {item.products.length} Products
+                      {item.count} Products
                     </p>
                   </div>
 

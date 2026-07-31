@@ -32,7 +32,6 @@ export default function Footer() {
       </span>
 
       <div className="relative max-w-[1700px] mx-auto px-6 sm:px-10 pt-16 sm:pt-20 lg:pt-24 pb-8 sm:pb-10">
-
         {/* TOP CTA STRIP */}
         <div
           className="
@@ -101,15 +100,20 @@ export default function Footer() {
 
         {/* MAIN GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1.1fr] gap-10 sm:gap-12 lg:gap-8">
-
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1 lg:pr-8">
-            <Image src="/logo.png" alt="OM's Bath Fittings" width={100} height={50} className="mb-5 sm:mb-6" />
+            <Image
+              src="/logo.png"
+              alt="OM's Bath Fittings"
+              width={100}
+              height={50}
+              className="mb-5 sm:mb-6"
+            />
 
             <p className="text-zinc-500 text-sm sm:text-base leading-6 sm:leading-7 max-w-sm mb-6 sm:mb-8">
               An ISO 9001:2015 certified manufacturer of premium bathroom
-              fittings — precision-engineered for timeless interiors and
-              modern luxury living.
+              fittings — precision-engineered for timeless interiors and modern
+              luxury living.
             </p>
 
             <div className="flex items-center gap-4">
@@ -190,19 +194,34 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-3 sm:gap-4">
-              <Link href="/royal" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/royal"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Royal
               </Link>
-              <Link href="/neo" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/neo"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Neo
               </Link>
-              <Link href="/bonjo" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/bonjo"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Bonjo
               </Link>
-              <Link href="/donald" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/donald"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Donald
               </Link>
-              <Link href="/collections" className="text-[#b99658] hover:text-white transition text-sm sm:text-base w-fit mt-1">
+              <Link
+                href="/collections"
+                className="text-[#b99658] hover:text-white transition text-sm sm:text-base w-fit mt-1"
+              >
                 View All →
               </Link>
             </div>
@@ -219,16 +238,28 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-col gap-3 sm:gap-4">
-              <Link href="/#about" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/#about"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 About Us
               </Link>
-              <Link href="/#testimonials" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/#testimonials"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Testimonials
               </Link>
-              <Link href="/collections" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/collections"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Collections
               </Link>
-              <Link href="/#contact" className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit">
+              <Link
+                href="/#contact"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
                 Contact
               </Link>
             </div>
@@ -246,28 +277,58 @@ export default function Footer() {
 
             <div className="flex flex-col gap-4 sm:gap-5">
               <div className="flex items-start gap-3">
-                <MapPin size={16} strokeWidth={1.5} className="text-[#b99658] mt-0.5 shrink-0" />
+                <MapPin
+                  size={16}
+                  strokeWidth={1.5}
+                  className="text-[#b99658] mt-0.5 shrink-0"
+                />
                 <p className="text-zinc-500 text-sm sm:text-base">
-                  New Delhi, 110083 India
+                  G-3/17, Mangol Puri, Industrial Plot,
+                  <br />
+                  New Delhi - 110083
                 </p>
               </div>
 
               <div className="flex items-start gap-3">
-                <Mail size={16} strokeWidth={1.5} className="text-[#b99658] mt-0.5 shrink-0" />
+                <Mail
+                  size={16}
+                  strokeWidth={1.5}
+                  className="text-[#b99658] mt-0.5 shrink-0"
+                />
                 <p className="text-zinc-500 text-sm sm:text-base break-all">
                   omsbath@gmail.com
                 </p>
               </div>
 
               <div className="flex items-start gap-3">
-                <Phone size={16} strokeWidth={1.5} className="text-[#b99658] mt-0.5 shrink-0" />
-                <p className="text-zinc-500 text-sm sm:text-base">
-                  +91 88603 49883
-                </p>
+                <Phone
+                  size={16}
+                  strokeWidth={1.5}
+                  className="text-[#b99658] mt-0.5 shrink-0"
+                />
+                <div className="flex flex-col gap-1">
+                  <a
+                    href="tel:+919811612238"
+                    className="text-zinc-500 text-sm sm:text-base hover:text-[#b99658] transition"
+                  >
+                    +91 98116 12238
+                  </a>
+                  <a
+                    href="tel:+919999110648"
+                    className="text-zinc-500 text-sm sm:text-base hover:text-[#b99658] transition"
+                  >
+                    +91 99991 10648
+                  </a>
+                  <a
+                    href="tel:+918860349883"
+                    className="text-zinc-500 text-sm sm:text-base hover:text-[#b99658] transition"
+                  >
+                    +91 88603 49883
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-
         </div>
 
         {/* BOTTOM BAR */}
@@ -288,7 +349,6 @@ export default function Footer() {
             </p>
           </div>
         </div>
-
       </div>
     </footer>
   );

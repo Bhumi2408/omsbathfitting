@@ -116,18 +116,31 @@ const collections = [
   { name: "Phonex", image: "/thumbnail/phonex.png", link: "/phonex" },
   { name: "Cosmos", image: "/thumbnail/cosmoss.png", link: "/cosmos" },
   { name: "Mini Opal", image: "/thumbnail/mini-opal.png", link: "/mini-opal" },
-  { name: "Concealed Body", image: "/thumbnail/concealed-body.png", link: "/concealed-body", },
+  {
+    name: "Concealed Body",
+    image: "/thumbnail/concealed-body.png",
+    link: "/concealed-body",
+  },
   { name: "Bath Set", image: "/banner/bath-setbanner.png", link: "/bath-set" },
   { name: "Shower", image: "/home/shower.png", link: "/showers" },
-  { name: "Health Faucets", image: "/thumbnail/faucet.png", link: "/health-faucets", },
-  { name: "Essential Item", image: "/thumbnail/essential-item.png", link: "/essential-item",},
+  {
+    name: "Health Faucets",
+    image: "/thumbnail/faucet.png",
+    link: "/health-faucets",
+  },
+  {
+    name: "Essential Item",
+    image: "/thumbnail/essential-item.png",
+    link: "/essential-item",
+  },
 ];
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "About", href: "#about" },
-  { label: "Testimonials", href: "#testimonials" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#about" },
+  { label: "Testimonials", href: "/#testimonials" },
+  { label: "Become a Dealer", href: "/become-a-dealer" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -137,7 +150,6 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white">
-      <div className="absolute inset-0 bg-[url('/texture.png')] opacity-10 pointer-events-none"></div>
 
       <nav className="relative border-b border-[#252525]">
         <div className="max-w-[1800px] mx-auto px-4 sm:px-8 lg:px-20">
@@ -165,7 +177,7 @@ export default function Header() {
 
               <Link
                 className="text-[13px] uppercase tracking-[3px] text-black font-medium hover:text-[#b99658] duration-300"
-                href="#about"
+                href="/#about"
               >
                 About
               </Link>
@@ -188,21 +200,31 @@ export default function Header() {
 
               <Link
                 className="text-[13px] uppercase tracking-[3px] text-black font-medium hover:text-[#b99658] duration-300"
-                href="#testimonials"
+                href="/#testimonials"
               >
                 Testimonials
               </Link>
 
               <Link
                 className="text-[13px] uppercase tracking-[3px] text-black font-medium hover:text-[#b99658] duration-300"
-                href="#contact"
+                href="/become-a-dealer"
+              >
+                Become a Dealer
+              </Link>
+
+              <Link
+                className="text-[13px] uppercase tracking-[3px] text-black font-medium hover:text-[#b99658] duration-300"
+                href="/#contact"
               >
                 Contact
               </Link>
 
+              {/* DESKTOP - Download Catalogue button */}
               <Link
                 className="text-[13px] uppercase tracking-[3px] text-black hover:text-white px-4 py-3 bg-[#b99658] duration-300"
-                href="#contact"
+                href="/catalogue.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Download Catalogue
               </Link>
@@ -357,22 +379,25 @@ export default function Header() {
               </div>
             </div>
 
+            {/* MOBILE - Download Catalogue button */}
             <Link
-              href="#contact"
+              href="/catalogue.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileOpen(false)}
               className="
-                text-[13px]
-                uppercase
-                tracking-[3px]
-                text-center
-                text-black
-                hover:text-white
-                px-4
-                py-4
-                mt-6
-                bg-[#b99658]
-                duration-300
-              "
+    text-[13px]
+    uppercase
+    tracking-[3px]
+    text-center
+    text-black
+    hover:text-white
+    px-4
+    py-4
+    mt-6
+    bg-[#b99658]
+    duration-300
+  "
             >
               Download Catalogue
             </Link>
