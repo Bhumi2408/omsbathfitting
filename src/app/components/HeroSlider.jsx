@@ -86,9 +86,9 @@ export default function HeroSlider() {
                       Premium Bathroom Solutions
                     </p>
 
-                    <h1 className="font-heading text-white text-3xl sm:text-5xl lg:text-6xl leading-none">
+                    <h2 className="font-heading text-white text-3xl sm:text-5xl lg:text-6xl leading-none">
                       {slide.title1}
-                    </h1>
+                    </h2>
 
                     <h2 className="font-heading italic text-[#b99658] text-4xl sm:text-6xl lg:text-7xl leading-none">
                       {slide.title2}

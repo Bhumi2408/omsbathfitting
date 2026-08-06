@@ -27,11 +27,11 @@ export default function AboutSection() {
 
             <div className="border-l-2 border-[#b99658] pl-5 sm:pl-8 mt-5">
 
-              <h4 className="font-heading text-3xl sm:text-4xl lg:text-5xl mb-5 sm:mb-8">
-                Precision Meets
+              <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl mb-5 sm:mb-8">
+                CP Bath Fitting Manufacturer
                 <br />
-                Timeless Design
-              </h4>
+                in Delhi
+              </h1>
 
               <p className="text-zinc-600 text-base sm:text-lg leading-7 sm:leading-9">
                 OM&apos;s Bath is a trusted{" "}
@@ -93,7 +93,7 @@ export default function AboutSection() {
             <div className="
               absolute
               -bottom-8
-              sm:-bottom-10
+              sm:bottom-8
               left-1/2
               -translate-x-1/2
               bg-white

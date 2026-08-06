@@ -40,10 +40,7 @@ export default function NeoSection() {
 
             {/* description */}
             <p className="text-zinc-600 text-sm sm:text-base leading-7 sm:leading-[1.9] mb-8 sm:mb-10">
-              Crafted for contemporary interiors, the Neo Collection
-              covers everyday bathroom and kitchen needs — bib cocks,
-              angle valves, sink mixers and wall mixers, finished in
-              lasting chrome for a clean, functional look.
+              Crafted for contemporary interiors, the Neo Collection — from a trusted CP Bath Fitting Manufacturer — covers everyday bathroom and kitchen needs: bib cocks, angle valves, sink mixers and wall mixers, finished in lasting chrome for a clean, functional look.
             </p>
 
             {/* features */}

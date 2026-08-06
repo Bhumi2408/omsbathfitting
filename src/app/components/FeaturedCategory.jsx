@@ -37,10 +37,7 @@ export default function FeaturedCategory() {
 
             {/* description */}
             <p className="text-zinc-400 text-sm sm:text-base leading-6 sm:leading-7 mb-8 sm:mb-10">
-              From bib cocks and angle valves to precision single-lever
-              basin mixers and wall-mounted spouts — our faucet range
-              covers every point of use. Chrome-finished brass and
-              ceramic disc technology ensure lasting smooth operation.
+             As a trusted <strong>CP Bath Fitting Manufacturer</strong>, we cover every point of use — from bib cocks and angle valves to precision single-lever basin mixers and wall-mounted spouts. Chrome-finished brass and ceramic disc technology ensure lasting smooth operation.
             </p>
 
             {/* features */}
