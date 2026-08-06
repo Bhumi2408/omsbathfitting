@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.omsbathfitting.com/sitemap.xml",
+    sitemap: "https://www.cpbathfittingmanufacturer.com/sitemap.xml",
   };
 }

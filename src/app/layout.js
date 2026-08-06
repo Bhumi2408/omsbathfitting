@@ -20,7 +20,7 @@ export const cormorant = Cormorant_Garamond({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.omsbath.com"), 
+  metadataBase: new URL("https://www.cpbathfittingmanufacturer.com"), 
   title: "OM's Bath | Best CP Bath Fitting Manufacturer in Delhi",
   description: "OM's Bath is a trusted CP Bath Fitting Manufacturer in Delhi. ISO 9001:2015 certified, 20+ years experience, 500+ products. Get best prices for dealers & builders.",
   alternates: {

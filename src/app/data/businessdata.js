@@ -7,9 +7,9 @@ export const BUSINESS = {
   alternateName: "OM's Bath Fitting",
   legalCategory: "CP Bath Fitting Manufacturer",
   city: "Delhi",
-  siteUrl: "https://www.omsbath.com",
-  pageUrl: "https://www.omsbath.com/cp-bath-fitting-manufacturer-delhi/",
-  logo: "https://www.omsbath.com/logo.png",
+  siteUrl: "https://www.cpbathfittingmanufacturer.com",
+  pageUrl: "https://www.cpbathfittingmanufacturer.com/cp-bath-fitting-manufacturer-delhi/",
+  logo: "https://www.cpbathfittingmanufacturer.com/logo.png",
   description:
     "OM's Bath is a CP Bath Fitting Manufacturer in Delhi, ISO 9001:2015 certified, manufacturing chrome plated bathroom fittings for over 20 years.",
   metaTitle: "OM's Bath | Best CP Bath Fitting Manufacturer in Delhi",
