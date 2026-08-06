@@ -15,7 +15,7 @@ const collections = [
     link: "/health-faucets",
   },
   {
-    image: "/home/opals.png",
+    image: "/thumbnail/opal.png",
     products: "31 Products",
     title: "Opal Series",
     link: "/opal",

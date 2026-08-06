@@ -34,11 +34,27 @@ export default function AboutSection() {
               </h4>
 
               <p className="text-zinc-600 text-base sm:text-lg leading-7 sm:leading-9">
-                One of the leading manufacturers of premium bathroom
-                faucets, Om's blends precision craftsmanship, state-of-the-art
+                OM&apos;s Bath is a trusted{" "}
+                <Link
+                  href="/#contact"
+                  className="font-semibold text-[#b99658] hover:underline"
+                >
+                  CP Bath Fitting Manufacturer in Delhi
+                </Link>
+                , blending precision craftsmanship, state-of-the-art
                 technology and top-grade raw materials to bring superior
                 performance and aesthetic excellence to everyday bathing
-                experiences.
+                experiences. As an{" "}
+                <strong className="font-semibold text-zinc-800">
+                  ISO 9001:2015 certified
+                </strong>{" "}
+                manufacturer with{" "}
+                <strong className="font-semibold text-zinc-800">
+                  20+ years of experience
+                </strong>
+                , we manufacture Chrome Plated (CP) bathroom fittings from our
+                own facility in Mangol Puri, New Delhi, supplying dealers,
+                builders, and homeowners across Delhi NCR and India.
               </p>
             </div>
 
@@ -61,7 +77,7 @@ export default function AboutSection() {
                 src="/home/about-section.png"
                 width={900}
                 height={1000}
-                alt="About"
+                alt="OM's Bath - CP Bath Fitting Manufacturer in Delhi"
                 className="
                   h-[420px]
                   sm:h-[560px]
@@ -139,6 +155,22 @@ export default function AboutSection() {
           </div>
 
         </div>
+
+        {/* SEO internal link strip */}
+        <div className="mt-10 sm:mt-14 text-center">
+          <p className="text-zinc-600 text-sm sm:text-base">
+            Looking for a reliable{" "}
+            <Link
+              href="/#contact"
+              className="font-semibold text-[#b99658] hover:underline"
+            >
+              CP Bath Fitting Manufacturer in Delhi
+            </Link>
+            ? Explore our full range for dealers, builders, and homeowners
+            across Delhi NCR.
+          </p>
+        </div>
+
       </div>
     </section>
   );

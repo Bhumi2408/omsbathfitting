@@ -7,6 +7,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import { BUSINESS } from "../data/businessdata";
 
 export default function Footer() {
   return (
@@ -56,11 +57,26 @@ export default function Footer() {
             <p className="text-[#b99658] uppercase tracking-[3px] sm:tracking-[6px] text-xs sm:text-sm mb-4 sm:mb-6">
               Let's Create Together
             </p>
-            <h2 className="font-heading text-white text-3xl sm:text-5xl lg:text-6xl leading-[1.1] max-w-2xl">
+            <h2 className="font-heading text-white text-3xl sm:text-5xl lg:text-6xl leading-[1.1] max-w-2xl mb-5 sm:mb-6">
               Crafted To Impress,
               <br />
               <span className="italic text-[#b99658]">Built To Last.</span>
             </h2>
+
+            <p className="text-zinc-500 text-sm sm:text-base leading-6 sm:leading-7 max-w-xl">
+              Looking for a reliable{" "}
+              <strong className="font-semibold text-white">
+                {BUSINESS.legalCategory} in {BUSINESS.city}
+              </strong>
+              ? Contact {BUSINESS.name} today for the best prices, dealer
+              inquiries, or bulk orders. As a trusted{" "}
+              <strong className="font-semibold text-white">
+                {BUSINESS.legalCategory}
+              </strong>
+              , the team responds quickly and guides buyers through every
+              step — whether it's a bulk order, a dealership application, or
+              a simple product query.
+            </p>
           </div>
 
           <Link
