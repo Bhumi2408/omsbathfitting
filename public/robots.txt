@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: ["/", "/llms.txt"],
     },
-    sitemap: "https://www.cpbathfittingmanufacturer.com/sitemap.xml",
+    sitemap: "https://www.omsbath.com/sitemap.xml",
   };
 }

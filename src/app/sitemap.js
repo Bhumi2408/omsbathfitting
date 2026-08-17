@@ -5,7 +5,7 @@ import { showers } from "./data/showers";
 // regenerate sitemap once every 24 hours
 export const revalidate = 86400;
 
-const BASE_URL = "https://www.cpbathfittingmanufacturer.com"; // apni actual domain daal dena
+const BASE_URL = "https://www.omsbath.com"; // apni actual domain daal dena
 
 export default function sitemap() {
   const currentDate = new Date();

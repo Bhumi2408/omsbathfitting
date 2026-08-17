@@ -20,7 +20,7 @@ export const cormorant = Cormorant_Garamond({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://www.cpbathfittingmanufacturer.com"), 
+  metadataBase: new URL("https://www.omsbath.com"), 
   title: "OM's Bath | Best CP Bath Fitting Manufacturer in Delhi",
   description: "OM's Bath is a trusted CP Bath Fitting Manufacturer in Delhi. ISO 9001:2015 certified, 20+ years experience, 500+ products. Get best prices for dealers & builders.",
   alternates: {
@@ -30,7 +30,7 @@ export const metadata = {
     icon: "/logo.png",
   },
   verification: {
-    google: "YARNWMktKAnUV7Q8CoBV9BV-ysC6i1UxOA3oU8riyAI",
+    google: "jCt55yPEYWqXMIgtjNsZgTqa7ZTko9ox_3JKLwoUf_c",
   },
 };
 
