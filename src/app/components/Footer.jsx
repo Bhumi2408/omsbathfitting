@@ -273,6 +273,12 @@ export default function Footer() {
                 Collections
               </Link>
               <Link
+                href="/blog"
+                className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
+              >
+                Blog
+              </Link>
+              <Link
                 href="/#contact"
                 className="text-zinc-500 hover:text-[#b99658] transition text-sm sm:text-base w-fit"
               >

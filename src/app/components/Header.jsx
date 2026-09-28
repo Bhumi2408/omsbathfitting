@@ -140,6 +140,7 @@ const navLinks = [
   { label: "About", href: "/#about" },
   { label: "Testimonials", href: "/#testimonials" },
   { label: "Become a Dealer", href: "/become-a-dealer" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/#contact" },
 ];
 
@@ -210,6 +211,13 @@ export default function Header() {
                 href="/become-a-dealer"
               >
                 Become a Dealer
+              </Link>
+
+              <Link
+                className="text-[13px] uppercase tracking-[3px] text-black font-medium hover:text-[#b99658] duration-300"
+                href="/blog"
+              >
+                Blog
               </Link>
 
               <Link

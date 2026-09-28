@@ -1,6 +1,7 @@
 import { collections } from "./data/collections";
 import { bathSets } from "./data/bathSets";
 import { showers } from "./data/showers";
+import { blogs } from "./data/blogs";
 
 // regenerate sitemap once every 24 hours
 export const revalidate = 86400;
@@ -15,8 +16,9 @@ export default function sitemap() {
     { url: `${BASE_URL}/`, changeFrequency: "daily", priority: 1 },
     { url: `${BASE_URL}/collections`, changeFrequency: "daily", priority: 0.9 },
     { url: `${BASE_URL}/bath-set`, changeFrequency: "daily", priority: 0.8 },
-    { url: `${BASE_URL}/shower`, changeFrequency: "daily", priority: 0.8 },
+    { url: `${BASE_URL}/showers`, changeFrequency: "daily", priority: 0.8 },
     { url: `${BASE_URL}/become-a-dealer`, changeFrequency: "weekly", priority: 0.6 },
+    { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.7 },
   ].map((route) => ({
     ...route,
     lastModified: currentDate,
@@ -40,10 +42,18 @@ export default function sitemap() {
 
   // dynamic shower sub-routes (rain, overhead, hand-shower)
   const showerRoutes = showers.map((item) => ({
-    url: `${BASE_URL}/shower/${item.slug}`,
+    url: `${BASE_URL}/showers/${item.slug}`,
     lastModified: currentDate,
     changeFrequency: "daily",
     priority: 0.6,
+  }));
+
+  // blog posts
+  const blogRoutes = blogs.map((item) => ({
+    url: `${BASE_URL}/blog/${item.slug}`,
+    lastModified: new Date(item.updatedAt),
+    changeFrequency: "monthly",
+    priority: 0.7,
   }));
 
   return [
@@ -51,5 +61,6 @@ export default function sitemap() {
     ...collectionRoutes,
     ...bathSetRoutes,
     ...showerRoutes,
+    ...blogRoutes,
   ];
 }
