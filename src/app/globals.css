@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --font-primary: var(--font-dm-sans);
+  --font-heading: var(--font-cormorant);
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-primary);
+}
+
+/* Hero Slider Pagination */
+
+.hero-slider .swiper-pagination {
+  bottom: 40px !important;
+}
+
+.hero-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent !important;
+  border: 2px solid #b99658;
+  opacity: 1;
+  margin: 0 8px !important;
+  transition: all 0.3s ease;
+}
+
+.hero-slider .swiper-pagination-bullet-active {
+  background: #b99658 !important;
+  border-color: #b99658 !important;
+  transform: scale(1.05);
+}
+
+/* Optional hover */
+.hero-slider .swiper-pagination-bullet:hover {
+  background: rgba(185, 150, 88, 0.4);
+}
+
+.collection-slider {
+  padding-bottom: 30px !important;
+}
+
+.collection-slider .swiper-pagination {
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.collection-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent !important;
+  border: 2px solid #b99658;
+  opacity: 1;
+  margin: 0 7px !important;
+}
+
+.collection-slider .swiper-pagination-bullet-active {
+  background: #b99658 !important;
+  border-color: #b99658 !important;
+}
