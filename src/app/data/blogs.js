@@ -1,12 +1,3 @@
-// All blog posts live here. To add a new blog, push another object into
-// the `blogs` array — the listing page, the post page, the sitemap and the
-// schema markup all read from this one file.
-//
-// Inline formatting inside any text string:
-//   **bold text**          -> <strong>
-//   [link text](/path)     -> internal or external link
-//   **[bold link](/path)** -> bold + link
-
 export const blogs = [
   {
     slug: "cp-bath-fitting-manufacturer-in-delhi",
