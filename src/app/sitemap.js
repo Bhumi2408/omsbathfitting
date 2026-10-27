@@ -52,7 +52,7 @@ export default function sitemap() {
   const blogRoutes = blogs.map((item) => ({
     url: `${BASE_URL}/blog/${item.slug}`,
     lastModified: new Date(item.updatedAt),
-    changeFrequency: "monthly",
+    changeFrequency: "daily",
     priority: 0.7,
   }));
 
