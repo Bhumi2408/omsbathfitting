@@ -8,7 +8,7 @@ export const blogs = [
     excerpt:
       "Explore the top 10 CP bathroom fittings in Delhi, from basin mixers to rain showers. Simple tips to choose the right ones for your home or project.",
     keywords: ["CP bathroom fittings in Delhi"],
-    image: "/blog/blog1.jpeg",
+    image: "/blog/blog2.jpeg",
     imageAlt: "Top 10 CP Bathroom Fittings in Delhi - OM’s Bath",
     category: "Buyer's Guide",
     author: "OM's Bath Team",
