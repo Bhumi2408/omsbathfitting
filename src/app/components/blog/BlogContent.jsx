@@ -71,6 +71,25 @@ function Block({ block }) {
     case "ul":
       return <List items={block.items} />;
 
+    case "ol":
+      return (
+        <ol className="space-y-4 my-6">
+          {block.items.map((item, i) => (
+            <li
+              key={item}
+              className="flex gap-4 text-zinc-600 text-base sm:text-[17px] leading-7 sm:leading-8"
+            >
+              <span className="font-heading italic text-2xl leading-8 text-[#b99658] w-6 shrink-0">
+                {i + 1}.
+              </span>
+              <span>
+                <RichText text={item} />
+              </span>
+            </li>
+          ))}
+        </ol>
+      );
+
     case "facts":
       return (
         <div className="my-8 bg-[#f8f6f2] border border-[#ebe4d6] rounded-2xl overflow-hidden">

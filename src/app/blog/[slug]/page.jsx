@@ -46,7 +46,7 @@ export async function generateMetadata({ params }) {
       publishedTime: blog.publishedAt,
       modifiedTime: blog.updatedAt,
       authors: [blog.author],
-      images: [{ url: blog.image, width: 1672, height: 941, alt: blog.imageAlt }],
+      images: [{ url: blog.image, width: 1600, height: 900, alt: blog.imageAlt }],
     },
     twitter: {
       card: "summary_large_image",
@@ -207,7 +207,7 @@ export default async function BlogPostPage({ params }) {
       {/* FEATURED IMAGE */}
       <div className="bg-white">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-10 -mt-32 sm:-mt-44 lg:-mt-60 relative">
-          <div className="relative aspect-[1672/941] rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_40px_80px_-30px_rgba(0,0,0,0.5)] ring-1 ring-[#b99658]/30">
+          <div className="relative aspect-[16/9] rounded-2xl sm:rounded-3xl overflow-hidden shadow-[0_40px_80px_-30px_rgba(0,0,0,0.5)] ring-1 ring-[#b99658]/30">
             <Image
               src={blog.image}
               alt={blog.imageAlt}

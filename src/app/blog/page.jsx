@@ -85,7 +85,7 @@ export default function BlogPage() {
               className="group block bg-white rounded-3xl overflow-hidden shadow-[0_20px_60px_-25px_rgba(0,0,0,0.25)] hover:shadow-[0_30px_70px_-25px_rgba(185,150,88,0.45)] transition-shadow duration-500"
             >
               {/* Full-width image at its natural ratio — banner has text, so never crop it */}
-              <div className="relative aspect-[1672/941] overflow-hidden">
+              <div className="relative aspect-[16/9] overflow-hidden">
                 <Image
                   src={featured.image}
                   alt={featured.imageAlt}

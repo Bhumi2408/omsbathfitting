@@ -1,318 +1,308 @@
 export const blogs = [
   {
-    slug: "cp-bath-fitting-manufacturer-in-delhi",
-    title: "CP Bath Fitting Manufacturer in Delhi: A Complete Buyer's Guide In 2026",
-    metaTitle: "CP Bath Fitting Manufacturer in Delhi | OM's Bath",
+    slug: "top-10-cp-bathroom-fittings-in-delhi",
+    title: "Top 10 CP Bathroom Fittings in Delhi for a Modern Bathroom",
+    metaTitle: "Top 10 CP Bathroom Fittings in Delhi | OM’s Bath",
     metaDescription:
-      "Looking for a CP Bath Fitting Manufacturer in Delhi? Learn what CP fittings are, how to choose them, bulk buying tips and more from OM's Bath.",
+      "Explore the top 10 CP bathroom fittings in Delhi, from basin mixers to rain showers. Simple tips to choose the right ones for your home or project.",
     excerpt:
-      "What CP fittings are, how to choose the right ones, what to check before a bulk order, and how to keep your fittings looking new.",
-    keywords: [
-      "CP Bath Fitting Manufacturer in Delhi",
-      "CP bath fittings",
-      "chrome plated bathroom fittings",
-      "CP vs PTMT fittings",
-      "bathroom fittings manufacturer Delhi",
-    ],
+      "Explore the top 10 CP bathroom fittings in Delhi, from basin mixers to rain showers. Simple tips to choose the right ones for your home or project.",
+    keywords: ["CP bathroom fittings in Delhi"],
     image: "/blog/blog1.jpeg",
-    imageAlt: "OM's Bath - CP Bath Fitting Manufacturer in Delhi",
+    imageAlt: "Top 10 CP Bathroom Fittings in Delhi - OM’s Bath",
     category: "Buyer's Guide",
     author: "OM's Bath Team",
-    publishedAt: "2026-09-28",
-    updatedAt: "2026-09-28",
+    publishedAt: "2026-10-28",
+    updatedAt: "2026-10-28",
 
     content: [
       {
         type: "p",
-        text: "Picking bathroom fittings looks easy until you start comparing options. There are hundreds of designs, many finishes, and a wide range of prices. Some fittings look great on day one and start leaking or losing shine within a year. The best way to avoid this is to buy from people who actually make the product. That is why many dealers, builders, architects and homeowners search for a trusted **CP Bath Fitting Manufacturer in Delhi**.",
+        text: "A good bathroom is not only about tiles and colours. The taps, mixers and showers you touch every day decide how comfortable it feels. If you are building a new home or upgrading an old bathroom, you may be looking for the best **CP bathroom fittings in Delhi**. But with so many types, it is hard to know where to start.",
       },
       {
         type: "p",
-        text: "In this guide, we explain everything in simple words: what CP fittings are, how to choose the right ones, what to check before a bulk order, and how to keep your fittings looking new. Whether you are building a new home, upgrading a bathroom, or starting a fittings business, this guide will help you decide with confidence.",
+        text: "This guide makes it simple. We list the 10 most useful CP bathroom fittings, explain what each one does, and tell you where it works best. By the end, you will know exactly what your bathroom needs.",
+      },
+      { type: "h3", text: "Quick Summary" },
+      {
+        type: "ul",
+        items: [
+          "CP means Chrome Plated. These are brass fittings with a shiny chrome layer.",
+          "A full bathroom usually needs mixers, a shower, a health faucet and a few basic taps.",
+          "Pick one design collection so everything matches.",
+          "OM’s Bath has 500+ products across 20+ collections.",
+        ],
       },
 
-      { type: "h2", id: "what-is-a-cp-bath-fitting", text: "What Is a CP Bath Fitting?" },
+      { type: "h2", id: "what-are-cp-bathroom-fittings", text: "What Are CP Bathroom Fittings?" },
       {
         type: "p",
-        text: "**CP stands for Chrome Plated.** A CP bath fitting is a bathroom or kitchen plumbing product, such as a tap, mixer, valve or shower, that is made from brass and then coated with a layer of chrome. Brass is used because it is strong, handles water well and lasts long. The chrome layer sits on top and gives the product its mirror-like shine.",
+        text: "CP stands for Chrome Plated. CP bathroom fittings are taps, mixers, valves and showers made from brass and coated with a thin layer of chrome. Brass gives strength. Chrome gives shine and protects the surface from rust.",
+      },
+      { type: "p", text: "Here is why they are so popular:" },
+      {
+        type: "ul",
+        items: [
+          "**Shiny, premium look** that suits any bathroom style",
+          "**Rust resistance** for everyday wet use",
+          "**Easy to clean** with a soft cloth",
+          "**Long-lasting** when you choose good quality",
+        ],
       },
       {
         type: "p",
-        text: "CP fittings are the standard choice in most Indian homes, hotels, offices and commercial buildings. Here is why people prefer them:",
+        text: "Most homes in Delhi choose CP bathroom fittings because they balance looks, strength and price very well.",
+      },
+
+      { type: "h2", id: "the-top-10-cp-bathroom-fittings", text: "The Top 10 CP Bathroom Fittings" },
+      {
+        type: "p",
+        text: "Here are the 10 fittings that most bathrooms and kitchens need. All of them are part of the OM’s Bath range.",
+      },
+
+      { type: "h3", text: "1. Basin Mixers" },
+      {
+        type: "p",
+        text: "A basin mixer controls both hot and cold water with a single lever. You can adjust the temperature and flow with one hand.",
       },
       {
         type: "ul",
         items: [
-          "**Shiny, premium look:** Chrome suits both modern and classic bathrooms.",
-          "**Rust resistance:** The coating protects the surface from everyday moisture.",
-          "**Easy cleaning:** A soft cloth is usually enough to keep them bright.",
-          "**Good value:** They offer strong performance at a fair price.",
+          "**Best for:** Wash basins in bedrooms, guest bathrooms and hotel rooms",
+          "**Why people like it:** Smooth control and a neat, clean look",
         ],
       },
 
-      { type: "h2", id: "common-types-of-cp-bath-fittings", text: "Common Types of CP Bath Fittings" },
+      { type: "h3", text: "2. Wall Mixers" },
       {
         type: "p",
-        text: "A complete bathroom uses many different fittings. Knowing the names helps you shop and talk to suppliers with less confusion.",
+        text: "A wall mixer is fixed on the wall and blends hot and cold water for the shower and bucket area. It comes in single-lever and dual-handle designs.",
       },
       {
         type: "ul",
         items: [
-          "**Bib cocks:** Simple taps fixed on walls, used for buckets, geysers and washing areas.",
-          "**Angle valves:** Small valves that control water to a flush tank, basin or geyser.",
-          "**Pillar cocks:** Taps fixed on the top of a basin or sink.",
-          "**Wall mixers:** Fittings that blend hot and cold water for the shower area.",
-          "**Basin mixers:** Single-lever taps for the wash basin.",
-          "**Sink mixers and swan necks:** Taps with a longer neck, ideal for kitchen sinks.",
-          "**[Health faucets](/health-faucets):** Hand-held sprays used near the toilet for hygiene.",
-          "**[Showers](/showers):** Rain, overhead, hand and sandwich showers.",
+          "**Best for:** Main shower areas",
+          "**Why people like it:** One fitting gives you full control over water temperature",
         ],
       },
 
-      { type: "h2", id: "why-buy-from-a-genuine-manufacturer", text: "Why Buy From a Genuine Manufacturer?" },
+      { type: "h3", text: "3. Rain Showers" },
       {
         type: "p",
-        text: "Many shops sell fittings, but not all of them make what they sell. Some are traders who buy from different sources and resell. When you buy from a genuine CP Bath Fitting Manufacturer, you deal directly with the factory that designs, produces and checks the product. This makes a real difference.",
+        text: "A rain shower gives a soft, wide spray, like gentle rainfall. It turns a daily bath into a calm, relaxing moment. At OM’s Bath, rain showers are available from 6\"x6\" up to 16\"x16\", in brass and stainless steel finishes.",
       },
       {
         type: "ul",
         items: [
-          "**Factory-direct pricing:** There are no extra middlemen adding to the cost.",
-          "**Consistent quality:** The design, finish and size stay the same from one batch to the next.",
-          "**Better answers:** You can ask about materials, sizes and finishes and get clear information.",
-          "**Reliable repeat supply:** Very important for dealers and builders who order again and again.",
-          "**Accountability:** If something goes wrong, you know exactly who is responsible.",
+          "**Best for:** Modern bathrooms with enough space",
+          "**Why people like it:** Wide coverage and a premium feel",
         ],
       },
 
-      { type: "h2", id: "about-oms-bath", text: "About OM's Bath" },
+      { type: "h3", text: "4. Overhead Showers" },
       {
         type: "p",
-        text: "OM's Bath is an ISO 9001:2015 certified CP Bath Fitting Manufacturer based in Mangol Puri, New Delhi. The company has more than 20 years of experience and makes Chrome Plated bathroom fittings at its own facility. The focus is simple: combine careful craftsmanship, modern technology and good raw materials to make fittings that perform well every day and look great for years.",
+        text: "An overhead shower is fixed above your head and gives steady water flow from the top. It is a simple and practical choice for everyday use.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Family bathrooms and rented homes",
+          "**Why people like it:** Easy to use and easy to maintain",
+        ],
+      },
+
+      { type: "h3", text: "5. Hand Showers and Sandwich Showers" },
+      {
+        type: "p",
+        text: "A hand shower can be held and moved, which makes rinsing and cleaning much easier. A sandwich shower is a smart combination option for bathrooms that need more than one way to shower.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Bathing kids, rinsing the bathroom floor and washing hair",
+          "**Why people like it:** Flexible and very convenient",
+        ],
+      },
+
+      { type: "h3", text: "6. Health Faucets" },
+      {
+        type: "p",
+        text: "A health faucet is a small hand-held spray kept near the toilet. It is easy to use and helps with hygiene.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Every bathroom",
+          "**Why people like it:** Hygienic, simple and used daily",
+        ],
+      },
+
+      { type: "h3", text: "7. Sink Mixers and Swan Necks" },
+      {
+        type: "p",
+        text: "A swan neck has a long, curved spout that gives you extra space under the tap. Sink mixers work well in kitchens and wash areas.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Kitchen sinks and utility areas",
+          "**Why people like it:** Easy to fill large vessels and clean big items",
+        ],
+      },
+
+      { type: "h3", text: "8. Pillar Cocks" },
+      {
+        type: "p",
+        text: "A pillar cock is a simple tap fixed on the top of a basin or sink. It is a classic and affordable choice.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Basic wash areas and low-use bathrooms",
+          "**Why people like it:** Simple design and easy to fit",
+        ],
+      },
+
+      { type: "h3", text: "9. Bib Cocks and Angle Valves" },
+      {
+        type: "p",
+        text: "These are the small but important parts of a bathroom. A bib cock is a wall tap for buckets and washing. An angle valve controls water supply to a basin, flush tank or geyser.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Every home, as everyday water control",
+          "**Why people like it:** Useful, tough and simple",
+        ],
+      },
+
+      { type: "h3", text: "10. Bath Sets and Accessories" },
+      {
+        type: "p",
+        text: "Bath sets finish the look of your bathroom. They include towel racks, rings and rods, robe hooks, soap dishes, tumbler holders and liquid soap dispensers.",
+      },
+      {
+        type: "ul",
+        items: [
+          "**Best for:** Completing a bathroom with a matching style",
+          "**Why people like it:** Everything looks neat and coordinated",
+        ],
+      },
+
+      { type: "h2", id: "how-to-choose-the-right-cp-bathroom-fittings", text: "How to Choose the Right CP Bathroom Fittings" },
+      {
+        type: "p",
+        text: "When you compare CP bathroom fittings, a few simple checks can save you from costly mistakes.",
+      },
+      {
+        type: "ol",
+        items: [
+          "**Check the weight and feel.** A solid brass body feels heavier than a weak alloy.",
+          "**Look at the chrome finish.** It should be smooth and bright, without dull patches or tiny pits.",
+          "**Test the handle.** It should turn smoothly, without noise or jerks. Fittings with ceramic disc technology usually feel smoother.",
+          "**Pick one collection.** Choose taps, showers and accessories from the same design family so the bathroom looks planned.",
+          "**Match the use.** A family bathroom needs comfort. A hotel or commercial washroom needs extra strength.",
+          "**Confirm the size.** Make sure the fitting suits your pipes and wall setup before you buy.",
+        ],
+      },
+
+      { type: "h2", id: "popular-collections-to-explore", text: "Popular Collections to Explore" },
+      {
+        type: "p",
+        text: "OM’s Bath arranges its range in design collections, including Quba, Aria, Opal, Cute, Neo, Alpha, Oscar, Royal, Donald, Quadra, Fly, Spark, Bonjo, Curve, Phonex and Cosmos. Each collection covers many of the fittings listed above, so you can easily build a matching bathroom.",
+      },
+
+      { type: "h2", id: "why-choose-oms-bath", text: "Why Choose OM’s Bath?" },
+      {
+        type: "p",
+        text: "OM’s Bath is an ISO 9001:2015 certified company with more than 20 years of experience. It makes CP bathroom fittings in its own facility in Mangol Puri, New Delhi, so products are not bought from other companies and resold.",
       },
       {
         type: "facts",
         title: "Quick Facts",
         items: [
-          { label: "Company", value: "OM's Bath" },
+          { label: "Company", value: "OM’s Bath" },
           { label: "Experience", value: "20+ years" },
           { label: "Certification", value: "ISO 9001:2015" },
-          { label: "Product range", value: "500+ products across [20+ collections](/collections)" },
+          { label: "Product range", value: "500+ products across 20+ collections" },
           { label: "Type", value: "Genuine manufacturer, products made in-house" },
-          { label: "Factory address", value: "G-3/17, Mangol Puri Industrial Plot, New Delhi - 110083" },
+          { label: "Factory address", value: "G-3/17, Mangol Puri Industrial Area, New Delhi - 110083" },
           { label: "Works with", value: "Dealers, distributors, builders, architects, hotels, homeowners" },
-          {
-            label: "Contact",
-            value: "[+91 98116 12238](tel:+919811612238), [omsbath@gmail.com](mailto:omsbath@gmail.com)",
-          },
+          { label: "Contact", value: "+91 98116 12238, omsbath@gmail.com" },
         ],
       },
 
-      { type: "h2", id: "what-does-oms-bath-manufacture", text: "What Does OM's Bath Manufacture?" },
+      { type: "h2", id: "easy-care-tips", text: "Easy Care Tips" },
       {
         type: "p",
-        text: "As a CP Bath Fitting Manufacturer, OM's Bath offers a wide range so you can complete a full bathroom from one source. This also helps every fitting match in design and finish.",
-      },
-      { type: "h3", text: "Faucets and Mixers" },
-      {
-        type: "p",
-        text: "The range covers bib cocks, angle valves, pillar cocks, wall mixers, basin mixers, sink mixers and swan necks. They use chrome-finished brass and ceramic disc technology, which supports smooth, lasting operation.",
-      },
-      { type: "h3", text: "Rain Showers and Overhead Showers" },
-      {
-        type: "p",
-        text: "Showers come in sizes from 6\"x6\" up to 16\"x16\", in brass and stainless steel finishes. You can also choose [hand showers](/showers/hand-shower) and sandwich showers for different bathroom styles.",
-      },
-      { type: "h3", text: "Health Faucets" },
-      {
-        type: "p",
-        text: "Easy to use and hygienic, [health faucets](/health-faucets) are a daily-use essential for modern bathrooms.",
-      },
-      { type: "h3", text: "Bath Sets and Accessories" },
-      { type: "p", text: "To complete the look, there are [accessory sets](/bath-set) with:" },
-      {
-        type: "ul",
-        items: [
-          "Towel racks, rings and rods",
-          "Robe hooks",
-          "Soap dishes and liquid soap dispensers",
-          "Tumbler holders",
-        ],
-      },
-      { type: "h3", text: "Popular Collections" },
-      {
-        type: "p",
-        text: "The OM's Bath range is arranged in design collections, including [Quba](/quba), [Aria](/aria), [Opal](/opal), [Cute](/cute), [Neo](/neo), [Alpha](/alpha), [Oscar](/oscar), [Royal](/royal), [Donald](/donald), [Quadra](/quadra), [Fly](/fly), [Spark](/spark), [Bonjo](/bonjo), [Curve](/curve), [Phonex](/phonex) and [Cosmos](/cosmos). You can pick one collection and use it across the whole bathroom for a matching, well-planned look.",
-      },
-
-      { type: "h2", id: "cp-fittings-vs-ptmt-fittings", text: "CP Fittings vs PTMT Fittings" },
-      {
-        type: "p",
-        text: "Many buyers also ask whether they should choose CP or PTMT (plastic) fittings. Here is a simple comparison.",
-      },
-      {
-        type: "table",
-        head: ["Point", "CP (Chrome Plated)", "PTMT (Plastic)"],
-        rows: [
-          ["Material", "Brass with chrome coating", "Plastic"],
-          ["Look", "Shiny and premium", "Basic, matte or coloured"],
-          ["Strength", "Strong and durable", "Lighter and less sturdy"],
-          ["Best for", "Homes, hotels, commercial spaces", "Low-budget or temporary use"],
-        ],
-      },
-      {
-        type: "p",
-        text: "If you want a bathroom that looks good and works well for a long time, CP fittings are usually the better long-term choice.",
-      },
-
-      { type: "h2", id: "how-to-choose-the-right-cp-fitting", text: "How to Choose the Right CP Fitting: Step by Step" },
-      {
-        type: "steps",
-        items: [
-          {
-            title: "Check the material",
-            text: "Good fittings have a solid brass body. Lightweight, hollow-feeling products may use weaker material. Hold the product in your hand and compare the weight and feel.",
-          },
-          {
-            title: "Look closely at the chrome finish",
-            text: "The chrome should be smooth, even and bright. Watch out for these warning signs:",
-            list: [
-              "Dull patches or uneven colour",
-              "Tiny pits or rough spots",
-              "Edges where the coating looks thin",
-            ],
-          },
-          {
-            title: "Test the handle and the flow",
-            text: "The handle should turn smoothly without jerks or noise. A fitting with a ceramic disc cartridge usually feels smoother and gives better control over water flow.",
-          },
-          {
-            title: "Match the design to your bathroom",
-            text: "Choose one collection for taps, showers and accessories. A matching set makes even a small bathroom look neat and planned.",
-          },
-          {
-            title: "Choose by usage",
-            text: "A family bathroom needs comfort and style. A hotel, hostel or commercial washroom needs extra strength because the fittings are used many times a day.",
-          },
-          {
-            title: "Ask about size and compatibility",
-            text: "Before buying, confirm the size and connection type so the fitting matches your existing pipes and wall setup. This avoids costly changes during installation.",
-          },
-        ],
-      },
-
-      { type: "h2", id: "what-to-check-before-buying-in-bulk", text: "What to Check Before Buying in Bulk" },
-      {
-        type: "p",
-        text: "Dealers, builders and contractors often buy in large quantities. Before placing an order with any CP Bath Fitting Manufacturer, ask these questions:",
+        text: "To keep CP bathroom fittings shiny for years, follow these simple habits:",
       },
       {
         type: "ul",
         items: [
-          "**Is it a real manufacturer?** Ask where the products are made.",
-          "**Is it certified?** Certifications like ISO 9001:2015 show that a quality system is followed.",
-          "**Can you get a catalogue?** A clear [catalogue](/catalogue.pdf) shows models, sizes and finishes.",
-          "**What are the order terms?** Ask about minimum order quantity, price and delivery time.",
-          "**Is repeat supply reliable?** Your second and third orders should match the first in quality.",
-          "**Can you inspect samples?** Checking a sample before a big order is always smart.",
-        ],
-      },
-      { type: "p", text: "Asking these questions early saves time, money and returns later." },
-
-      { type: "h2", id: "who-does-oms-bath-work-with", text: "Who Does OM's Bath Work With?" },
-      { type: "p", text: "As a CP Bath Fitting Manufacturer, OM's Bath supplies many kinds of buyers:" },
-      {
-        type: "ul",
-        items: [
-          "**[Dealers and distributors](/become-a-dealer):** Looking for a manufacturing partner for long-term supply.",
-          "**Builders and contractors:** Needing bulk fittings for residential and commercial projects.",
-          "**Architects and interior designers:** Needing modern designs for client projects.",
-          "**Hotels and commercial spaces:** Needing durable fittings for heavy daily use.",
-          "**Homeowners:** Upgrading bathrooms with premium chrome fittings.",
-        ],
-      },
-
-      { type: "h2", id: "simple-care-tips-for-cp-fittings", text: "Simple Care Tips for CP Fittings" },
-      {
-        type: "p",
-        text: "Even the best fittings need basic care. A few easy habits can keep your chrome bright for years:",
-      },
-      {
-        type: "ul",
-        items: [
-          "Wipe fittings with a soft, damp cloth after use.",
+          "Wipe with a soft, damp cloth after use.",
           "Dry water drops, because hard water can leave spots.",
-          "Use mild soap or a gentle cleaner. Avoid strong acids and bleach on chrome.",
-          "Do not use rough scrubbers or steel wool, as they scratch the surface.",
-          "Clean shower heads from time to time so the holes do not get blocked.",
-          "Fix small drips early, before they cause stains or bigger problems.",
-        ],
-      },
-
-      { type: "h2", id: "common-mistakes-to-avoid", text: "Common Mistakes to Avoid When Buying CP Fittings" },
-      {
-        type: "ul",
-        items: [
-          "**Choosing only by price:** Very cheap fittings often use weak material and cost more later.",
-          "**Mixing too many designs:** It makes the bathroom look uneven.",
-          "**Skipping the sample check:** Always feel the weight, handle and finish first.",
-          "**Ignoring size:** A wrong size can cause leaks or extra plumbing work.",
-          "**Not asking about the seller:** Confirm whether you are buying from a manufacturer or a trader.",
+          "Use mild soap and avoid strong acids or bleach.",
+          "Do not use rough scrubbers or steel wool.",
+          "Clean shower heads sometimes so the holes do not get blocked.",
+          "Fix small drips early.",
         ],
       },
 
       { type: "h2", id: "final-thoughts", text: "Final Thoughts" },
       {
         type: "p",
-        text: "The right bathroom fittings make your space look better and work better for many years. When you choose a trusted **CP Bath Fitting Manufacturer in Delhi**, you get factory-direct pricing, a wide range of designs and steady quality. Check the material, finish and certification, take a sample when you can, and match your fittings to how the bathroom will be used.",
-      },
-      {
-        type: "contact",
-        title: "Ready to talk to OM's Bath?",
-        text: "For dealer enquiries, bulk orders or product questions, get in touch with our team.",
+        text: "The right fittings make your bathroom look better and work better every single day. Start with the basics like a mixer, a shower and a health faucet, then add accessories to complete the look. If you want quality CP bathroom fittings in Delhi, choose a maker you can trust, check the finish, and keep the design matching.",
       },
     ],
 
     faqs: [
       {
-        q: "What does CP mean in bathroom fittings?",
-        a: "CP means Chrome Plated. A CP fitting is a tap, mixer, valve or shower made from brass and coated with chrome. The coating gives shine, helps resist rust and makes cleaning easier.",
+        q: "What are CP bathroom fittings?",
+        a: "CP bathroom fittings are taps, mixers, valves and showers made from brass and coated with chrome. The chrome gives shine, helps resist rust and makes cleaning easier.",
       },
       {
-        q: "Who is a good CP bath fitting manufacturer in Delhi?",
-        a: "OM's Bath is an ISO 9001:2015 certified CP bath fitting manufacturer in Delhi. It has 20+ years of experience and makes 500+ products at its own facility in Mangol Puri, New Delhi.",
+        q: "Which CP fittings does a home bathroom need?",
+        a: "Most bathrooms need a basin mixer, a wall mixer, a shower, a health faucet, a few bib cocks or angle valves, and an accessory set like a towel rack and soap dish.",
       },
       {
-        q: "Is OM's Bath a manufacturer or a trader?",
-        a: "OM's Bath is a genuine manufacturer. Its products are made in its own facility and are not bought from other companies and resold.",
+        q: "What is the difference between a basin mixer and a pillar cock?",
+        a: "A basin mixer blends hot and cold water with one lever. A pillar cock is a simple tap, usually for one type of water. Mixers give more control.",
       },
       {
-        q: "What products does OM's Bath manufacture?",
-        a: "OM's Bath makes bib cocks, angle valves, pillar cocks, wall mixers, basin mixers, sink mixers, health faucets, rain and overhead showers, hand showers, sandwich showers and bath accessory sets.",
+        q: "Which shower is better: rain shower or hand shower?",
+        a: "A rain shower gives a wide, soft spray for a relaxing bath. A hand shower is easier for rinsing and cleaning. Many bathrooms use both.",
+      },
+      {
+        q: "What sizes do rain showers come in?",
+        a: "OM’s Bath rain and overhead showers are available from 6\"x6\" up to 16\"x16\", in brass and stainless steel finishes.",
+      },
+      {
+        q: "Why is a health faucet useful?",
+        a: "A health faucet is a hand-held spray used near the toilet. It is easy to use and helps with daily hygiene.",
+      },
+      {
+        q: "What is a swan neck tap?",
+        a: "A swan neck tap has a long, curved spout. It gives more space under the tap, so it works well for kitchen sinks and large vessels.",
       },
       {
         q: "What is the difference between CP and PTMT fittings?",
-        a: "CP fittings are made of brass with a chrome coating, while PTMT fittings are made of plastic. CP fittings are stronger and look more premium, so they suit most homes and commercial spaces.",
+        a: "CP fittings are made of brass with a chrome coating, while PTMT fittings are made of plastic. CP fittings are stronger and look more premium.",
       },
       {
-        q: "How do I choose the right CP fitting for my bathroom?",
-        a: "Check the material, chrome finish, handle smoothness and design match. Pick one collection for a coordinated look and choose sturdier fittings for high-use spaces like hotels.",
+        q: "How do I clean CP bathroom fittings?",
+        a: "Wipe them with a soft, damp cloth and dry the water drops. Use mild soap, and avoid strong acids, bleach and rough scrubbers.",
       },
       {
-        q: "Can CP fittings be used with both hot and cold water?",
-        a: "Yes, CP fittings are made for hot and cold water use, and mixers blend the two. Always check the details of the exact model before installation.",
-      },
-      {
-        q: "Why do CP fittings lose shine or develop spots?",
-        a: "Hard water, harsh cleaners and leftover water drops can dull the chrome. Wiping fittings dry and using mild cleaners helps keep them shiny.",
-      },
-      {
-        q: "What should I check before buying CP fittings in bulk?",
-        a: "Confirm the seller is a real manufacturer with certifications. Ask for a catalogue, minimum order quantity, delivery time and repeat-order quality.",
+        q: "Where can I buy CP bathroom fittings in Delhi?",
+        a: "You can buy from OM’s Bath, an ISO 9001:2015 certified maker with its facility at G-3/17, Mangol Puri Industrial Area, New Delhi - 110083. Call +91 98116 12238 for details.",
       },
     ],
   },
 ];
+
 
 export function getBlog(slug) {
   return blogs.find((blog) => blog.slug === slug);
