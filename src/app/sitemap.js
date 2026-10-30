@@ -19,6 +19,7 @@ export default function sitemap() {
     { url: `${BASE_URL}/showers`, changeFrequency: "daily", priority: 0.8 },
     { url: `${BASE_URL}/become-a-dealer`, changeFrequency: "weekly", priority: 0.6 },
     { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.7 },
+    { url: `${BASE_URL}/cp-bath-fitting-manufacturer-in-karnataka`, changeFrequency: "monthly", priority: 0.8 },
   ].map((route) => ({
     ...route,
     lastModified: currentDate,

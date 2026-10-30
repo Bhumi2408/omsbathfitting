@@ -4,6 +4,13 @@ import { collections } from "../data/collections";
 import { bathSets } from "../data/bathSets";
 import { showers } from "../data/showers";
 
+export const metadata = {
+  title: "All Collections – CP Bath Fittings Collections | OM’s Bath",
+  description:
+    "Explore 20+ CP bath fitting collections from OM's Bath — Quba, Aria, Opal, Neo and more, plus bath sets and showers. ISO 9001:2015 certified manufacturer in Delhi.",
+  alternates: { canonical: "/collections" },
+};
+
 const Page = () => {
   // total products inside all bath-set sub-categories (Dolfee + Squaro + Ridim)
   const bathSetCount = bathSets.reduce(

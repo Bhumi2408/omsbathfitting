@@ -25,6 +25,7 @@ export async function generateMetadata({ params }) {
     title: collection.seo.title,
     description: collection.seo.description,
     keywords: collection.seo.keywords,
+    alternates: { canonical: `/showers/${collection.slug}` },
   };
 }
 

@@ -71,6 +71,37 @@ function Block({ block }) {
     case "ul":
       return <List items={block.items} />;
 
+    case "callout":
+      return (
+        <div className="my-8 border-l-4 border-[#b99658] bg-[#f8f6f2] rounded-r-2xl px-6 sm:px-8 py-6 sm:py-7">
+          <p className="text-[#9a7a3f] uppercase tracking-[4px] text-xs mb-3 font-semibold">
+            {block.title}
+          </p>
+          <p className="text-zinc-700 text-base sm:text-[17px] leading-7 sm:leading-8">
+            <RichText text={block.text} />
+          </p>
+        </div>
+      );
+
+    case "cta":
+      return (
+        <div className="relative my-12 bg-black rounded-2xl overflow-hidden px-6 sm:px-10 py-10 sm:py-12">
+          <span className="absolute -bottom-10 -right-2 font-heading text-[160px] leading-none text-white/[0.03] select-none pointer-events-none">
+            OM
+          </span>
+          <h2
+            id={block.id}
+            className="relative scroll-mt-28 font-heading text-white text-3xl sm:text-4xl leading-tight mb-4"
+          >
+            {block.title}
+          </h2>
+          <div className="relative w-16 h-[1px] bg-[#b99658] mb-5" />
+          <p className="relative text-zinc-300 text-base sm:text-lg leading-7 sm:leading-8">
+            <RichText text={block.text} />
+          </p>
+        </div>
+      );
+
     case "ol":
       return (
         <ol className="space-y-4 my-6">
@@ -137,7 +168,7 @@ function Block({ block }) {
                 <tr key={row[0]} className="border-t border-[#ebe4d6]">
                   {row.map((cell, i) => (
                     <td
-                      key={cell}
+                      key={i}
                       className={`px-5 sm:px-6 py-4 leading-6 ${
                         i === 0
                           ? "font-semibold text-zinc-900"
@@ -146,7 +177,7 @@ function Block({ block }) {
                           : "text-zinc-600"
                       }`}
                     >
-                      {cell}
+                      <RichText text={cell} />
                     </td>
                   ))}
                 </tr>

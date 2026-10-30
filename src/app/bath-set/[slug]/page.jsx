@@ -23,6 +23,7 @@ export async function generateMetadata({ params }) {
     title: collection.seo.title,
     description: collection.seo.description,
     keywords: collection.seo.keywords,
+    alternates: { canonical: `/bath-set/${collection.slug}` },
   };
 }
 

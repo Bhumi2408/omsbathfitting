@@ -4,6 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 export const metadata = {
   title: "Thank You | OM's Bath Fittings",
   description: "Thank you for reaching out to OM's Bath Fittings.",
+  alternates: { canonical: "/thank-you" },
 };
 
 export default function ThankYouPage() {

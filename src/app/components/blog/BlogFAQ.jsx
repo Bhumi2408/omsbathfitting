@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Plus } from "lucide-react";
 
-export default function BlogFAQ({ faqs }) {
+export default function BlogFAQ({ faqs, prefix = "" }) {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -20,7 +20,7 @@ export default function BlogFAQ({ faqs }) {
             >
               <h3 className="font-heading text-lg sm:text-[22px] text-black group-hover:text-[#9a7a3f] transition-colors">
                 <strong className="font-semibold">
-                  {index + 1}. {item.q}
+                  {prefix}{index + 1}. {item.q}
                 </strong>
               </h3>
               <span

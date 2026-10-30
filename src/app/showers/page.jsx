@@ -2,6 +2,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { showers } from "../data/showers";
 
+export const metadata = {
+  title: "Showers – Rain, Overhead & Hand Showers | OM’s Bath",
+  description:
+    "Rain, overhead and hand showers from OM's Bath, a CP Bath Fitting Manufacturer in Delhi. Brass and stainless steel finishes, sizes from 6\"x6\" to 16\"x16\".",
+  alternates: { canonical: "/showers" },
+};
+
 const Page = () => {
   return (
     <>
