@@ -11,6 +11,10 @@ import CPBathFittingContent from "./components/CPBathFittingContent";
 import FAQSection from "./components/FAQSection";
 
 export const metadata = {
+  keywords: [
+    "CP Bath Fitting Manufacturers",
+    "CP Bath Fitting Manufacturer In Delhi",
+  ],
   alternates: { canonical: "/" },
 };
 

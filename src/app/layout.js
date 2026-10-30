@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
+import EnquiryPopup from "./components/EnquiryPopup";
 
 export const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <FloatingWhatsApp/>
+        <EnquiryPopup/>
         {/* Footer */}
         <Footer />
 

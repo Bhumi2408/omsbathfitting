@@ -44,7 +44,7 @@ const content = [
   {
     type: "callout",
     title: "Quick answer",
-    text: "**OM's Bath is a CP Bath Fitting Manufacturer in Karnataka buyers can source from directly.** It is an ISO 9001:2015 certified brand with 20+ years of experience, 500+ chrome-plated brass products across 20+ collections, and its own factory in New Delhi. OM's Bath supplies dealers, builders and contractors in Bengaluru and across Karnataka.",
+    text: "**OM's Bath is a [CP Bath Fitting Manufacturer in Karnataka](/#contact) buyers can source from directly.** It is an ISO 9001:2015 certified brand with 20+ years of experience, 500+ chrome-plated brass products across 20+ collections, and its own factory in New Delhi. OM's Bath supplies dealers, builders and contractors in Bengaluru and across Karnataka.",
   },
 
   { type: "h2", id: "what-is-a-cp-bath-fitting", text: "What is a CP bath fitting?" },
